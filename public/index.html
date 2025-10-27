@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AquaSmartAI Dashboard</title>
+  <link rel="stylesheet" href="dashboardstyle.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>AquaSmartAI</h1>
+    <p>Smart Pipeline Monitoring and Control</p>
+  </header>
+
+  <main class="main-container">
+    <!-- Dashboard Section -->
+    <section class="dashboard">
+      <h2>Pipeline Dashboard</h2>
+      <div class="sensor-data">
+        <div class="sensor-card" id="waterFlow">
+          <h3>Water Flow</h3>
+          <p>Loading...</p>
+        </div>
+        <div class="sensor-card" id="temperature">
+          <h3>Temperature</h3>
+          <p>Loading...</p>
+        </div>
+        <div class="sensor-card" id="pressure">
+          <h3>Pressure</h3>
+          <p>Loading...</p>
+        </div>
+      </div>
+
+      <div class="alerts">
+        <h3>System Alerts</h3>
+        <ul id="alertsList">
+          <li>No active alerts</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section class="chatbot-container">
+      <h2>AI Assistant</h2>
+      <div class="chatbox" id="chatbox">
+        <div class="chat-messages" id="messages"></div>
+        <div class="chat-input">
+          <input type="text" id="userInput" placeholder="Ask AquaSmartAI..." />
+          <button id="sendBtn">Send</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 AquaSmartAI | Smart Water Management</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="dashboard.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.chatbot-container { max-width: 600px; margin: 2rem auto; padding: 1rem; background: #fff; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.chat-window { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; background: #f9f9f9; }
+.message.user { text-align: right; margin-bottom: 0.5rem; color: #0077b6; }
+.message.bot { text-align: left; margin-bottom: 0.5rem; color: #000; }
+input { width: 70%; padding: 0.5rem; border-radius: 8px; border: 1px solid #ccc; }
+button { padding: 0.5rem 1rem; margin-left: 1rem; border: none; background: #0077b6; color: white; border-radius: 8px; cursor: pointer; }
+button:hover { background: #023e8a; }
